@@ -1,0 +1,11 @@
+name: PABM
+version: '${project.version}'
+main: pa.greenvox.ru.pabm.PABM
+api-version: 1.19
+authors: [ ProstoyArtemka ]
+description: Prostoy Artemka's Better Minecraft
+softdepend:  [NBTAPI, CoreProtect, OpenInv]
+commands:
+  setsignurl:
+    description: Command for setting sign url
+    usage: /setsignurl <url>
